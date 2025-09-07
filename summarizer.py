@@ -1,7 +1,7 @@
 from youtube_transcript_api import YouTubeTranscriptApi
 import openai
 
-openai.api_key = "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"
+openai.api_key = "Here_Goes_Your_Openai_API_Key"
 
 def get_video_id(url):
     if "v=" in url:
